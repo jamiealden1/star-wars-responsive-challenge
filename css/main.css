@@ -1,40 +1,35 @@
 header {
-  background-color: #eebb44;
-  margin-bottom: 40px;
+  background-color:#eebb44;
+  margin-bottom:40px;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #252525;
+.box {
+  border:1px solid lightgray;
+  padding-bottom:10px;
+  margin-bottom:20px;
 }
 
-header h1 {
-  line-height: 1;
-  margin-bottom: 0;
+img {
+  width:100%;
+}
+
+h1, h2, p {
+  font-family:"Roboto", Helvetica, sans-serif;
+}
+
+h2 {
+  font-size:18px;
+  margin-top:20px;
+}
+
+main h2, main p {
+  padding: 0 20px 0px 20px;
+}
+
+main p {
+  margin-top:-5px;
 }
 
 header p {
-  margin-top: 0.5em;
-}
-
-.card {
-  border: 1px solid #E5E5E5;
-  margin-bottom: 20px;
-}
-
-.card-image {
-  width: 100%;
-}
-
-.card-content {
-  padding: 20px;
-}
-
-.card-content h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.card-content p {
-  margin: 0.5em 0;
+  margin-top: -20px;
 }
